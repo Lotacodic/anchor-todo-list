@@ -2,14 +2,14 @@
 seeds = false
 skip-lint = false
 
-[programs.devnet]
-todo_list_app = "<ADD YOUR ADDRESS HERE>"
+[programs.Localnet]
+todo_list_app = "2AAz5SfdnnVK8GQE2njE3kWJGCCLNyBaEeCUEbwXpnso"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "devnet"
+cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
